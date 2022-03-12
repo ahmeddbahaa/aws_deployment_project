@@ -12,7 +12,7 @@
         "test:frontend": "cd ./udagram-frontend && npm run test && cd ..",
         "test:backend": "cd ./udagram-api && npm run test && cd ..",
         "deploy":"npm run deploy:frontend && npm run deploy:backend",
-        "depoly:frontend": "cd ./udagram-frontend && npm run deploy && cd ..",
+        "deploy:frontend": "cd ./udagram-frontend && npm run deploy && cd ..",
         "deploy:backend": "cd ./udagram-api && npm run deploy && cd .."
     },
     "devDependencies": {}
