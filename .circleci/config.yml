@@ -23,6 +23,10 @@ jobs:
       - run:
           name: running the project tests
           command: npm run test
+      - run:
+            name: Deploying the project
+            command: npm run deploy
+          
 workflows:
   workflow:                    
     jobs:
