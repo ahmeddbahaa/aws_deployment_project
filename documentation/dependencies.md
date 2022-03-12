@@ -1,0 +1,11 @@
+The main dependencies of this project are:
+- nodejs
+- typescript
+- angular
+- jsonwebtoken
+- sequelize
+- mocha
+- bcrypt
+- Ionic
+- jasmine
+- aws-sdk
