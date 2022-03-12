@@ -11,7 +11,7 @@
     "clean": "rm -rf www/ || true",
     "build": "npm run clean && tsc && cp -rf src/config www/config && cp .npmrc www/.npmrc && cp package.json www/package.json && cd www && zip -r Archive.zip . && cd ..",
     "test": "echo \"Error: no test specified\"",
-    "deploy":"eb deploy udagram-api-dev"
+    "deploy": "eb use udagram-api-dev && eb deploy udagram-api-dev"
   },
   "keywords": [],
   "author": "Gabriel Ruttner",
